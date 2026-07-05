@@ -1,1 +1,2 @@
-DevOps practice project
+DevOps Journey
+Docker + Kubernetes + Git Version 2
