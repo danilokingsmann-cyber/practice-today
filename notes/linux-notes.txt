@@ -1,2 +1,3 @@
 Today I practiced Linux tree structure,Docker, and Kubernetes.
 Completed Kubernetes deployment practice.
+practiced kubectl logs and kubectl exec.
