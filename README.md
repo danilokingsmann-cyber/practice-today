@@ -1,12 +1,11 @@
-## Session 9
+## Session 10
 
-Today I learned:
+Performed a complete environment verification before deployment.
 
-- kubectl describe deployment
-- kubectl describe pod
-- kubectl logs
-- kubectl exec
-- kubectl rollout history
-- kubectl rollout status
+Verified:
 
-These commands are useful for troubleshooting applications running in Kubernetes.
+- Linux health
+- Git repository
+- Docker runtime
+- Jenkins workflow
+- Kubernetes cluster
