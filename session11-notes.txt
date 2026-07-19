@@ -1,0 +1,3 @@
+- Checked my working evironment via the pwd,whoami,free -h and df -h
+- Verified also that my docker and git hub are running smoothly aswell
+- Created today's lessons file
