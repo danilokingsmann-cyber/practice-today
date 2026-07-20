@@ -1,0 +1,17 @@
+Commands I executed today
+
+kubectl get deployments
+
+kubectl get pods
+
+kubectl get svc
+
+kubectl get endpoints
+
+kubectl describe deployment practice-app
+
+kubectl describe service practice-service
+
+kubectl logs 
+
+kubectl rollout status deployment practice-app
