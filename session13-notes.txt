@@ -1,0 +1,14 @@
+- Jenkins detect commits pushed by developer in github and runs tests, then build docker image and lastly publishes the said image
+- Checked my Argocd host server/url and noticed myapp-argo-application is running and is properly synced 
+- When a developer merges a new code into github, jenkins tracks that change,tests,build and publishes the docker image.
+  then the git repository is updated, Argocd detects the change in git, kubernetes updates deployment, pods are replaced and then the app
+  becomes healthy. 
+- Verified each stage via these command lines
+Linux	    free -h
+Git	    git status
+Docker	    docker ps
+Jenkins	    systemctl status
+Kubernetes  kubectl get all
+Argo CD	    kubectl get pods -n argocd
+
+-Today I saw what an end-to-end DevOps pipeline looks like  
